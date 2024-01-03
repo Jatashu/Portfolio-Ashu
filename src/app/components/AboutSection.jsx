@@ -50,7 +50,6 @@ const TAB_DATA = [
           and Git
         </li>
         <li>
-          {" "}
           <b>REACT -</b> The Complete Guide (incl Hooks, React Router, Redux)
         </li>
       </ul>
@@ -87,22 +86,19 @@ const AboutSection = () => {
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
-              {" "}
-              Skills{" "}
+              Skills
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
-              {" "}
-              Education{" "}
+              Education
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
-              {" "}
-              Certifications{" "}
+              Certifications
             </TabButton>
           </div>
           <div className="mt-8">
