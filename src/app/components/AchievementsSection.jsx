@@ -12,7 +12,7 @@ const AnimatedNumbers = dynamic(
 const achievementsList = [
   {
     metric: "Projects",
-    value: "100",
+    value: "4",
     postfix: "+",
   },
   {
@@ -21,12 +21,12 @@ const achievementsList = [
     value: "100,000",
   },
   {
-    metric: "Awards",
-    value: "7",
+    metric: "Certificate",
+    value: "2",
   },
   {
     metric: "Years",
-    value: "5",
+    value: "1",
   },
 ];
 

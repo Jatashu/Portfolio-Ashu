@@ -7,8 +7,8 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Next.JS Portfolio Website",
+    description: "Project 1",
     image: "/image/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -16,12 +16,12 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Pilot Preparation Academy Website",
+    description: "Project 2 ",
     image: "/image/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://pilotpreparationacademy.com/",
   },
   {
     id: 3,
